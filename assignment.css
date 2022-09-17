@@ -1,0 +1,54 @@
+div.card{
+    background-color: rgb(160, 233, 248);
+    margin: 42px;
+    opacity: 0.9;
+    
+}
+
+body{
+    background-image: url("https://www.goodfreephotos.com/albums/norway/other-norway/landscape-of-the-norwegian-mountains.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+.hov button{
+    width: 50%;
+    background-color: #0d6efd;
+    margin-top: 10%;
+    border: 1px solid rgb(160, 233, 248);
+    padding: 3px;
+    
+    --bs-btn-border-radius: 0.375rem;
+    
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border-radius: var(--bs-btn-border-radius);
+
+   
+}
+
+
+.hov button:hover{
+    background: #eef5f9;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #0c0c0c ,
+    0 0 25px black,
+    0 0 50px black,
+    0 0 100px black;
+}
+
+.card-title:hover{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    cursor: pointer;
+
+}
+
+
